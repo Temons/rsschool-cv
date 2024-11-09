@@ -4,7 +4,7 @@
 
 * **Location:** Portugal
 * **Email:** <a href="mailto:algatecby@gmail.com" target="_blank">algatecby@gmail.com</a>
-* **Linkedin:** <a href="https://www.linkedin.com/in/artsiom-trafimiuk/" targer="_blank">Artem Trafimiuk</a>
+* **Linkedin:** <a href="https://www.linkedin.com/in/artsiom-trafimiuk/" target="_blank">Artem Trafimiuk</a>
 * **Github:** <a href="https://github.com/Temons" target="_blank">Github</a>
 * **Telegram:** <a href="https://t.me/artstrfm" target="_blank">@artstrfm</a>
 
