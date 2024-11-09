@@ -92,7 +92,7 @@ var intersect = function(nums1, nums2) {
 # Experience
 
 * **LIFETECH (TURKCELL GROUP)**
-    * Software Engineer 03.2021 - 08.2026
+    * Software Engineer 03.2021 - 08.2024
 * **ABF PROGRAMMING**
     * Software Engineer 03.2020 - 03.2021
 * **TEGRO.BY**
