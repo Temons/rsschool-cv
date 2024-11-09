@@ -3,10 +3,10 @@
 # Contact information
 
 * **Location:** Portugal
-* **Email:** [algatecby@gmail.com](algatecby@gmail.com)
-* **Linkedin:** [Artem Trafimiuk](https://www.linkedin.com/in/artsiom-trafimiuk)
-* **Github:** [Temons](https://github.com/Temons)
-* **Telegram:** [@artstrfm](https://t.me/artstrfm)
+* **Email:** <a href="mailto:algatecby@gmail.com" target="_blank">algatecby@gmail.com</a>
+* **Linkedin:** <a href="https://www.linkedin.com/in/artsiom-trafimiuk/" targer="_blank">Artem Trafimiuk</a>
+* **Github:** <a href="https://github.com/Temons" target="_blank">Github</a>
+* **Telegram:** <a href="https://t.me/artstrfm" target="_blank">@artstrfm</a>
 
 # Summary
 
@@ -92,27 +92,25 @@ var intersect = function(nums1, nums2) {
 # Experience
 
 * **LIFETECH (TURKCELL GROUP)**
-    *Software Engineer 03.2021 - 08.2024
+    * Software Engineer 03.2021 - 08.2026
 * **ABF PROGRAMMING**
-    *Software Engineer 03.2020 - 03.2021
+    * Software Engineer 03.2020 - 03.2021
 * **TEGRO.BY**
-    *Software Engineer 03.2019 - 02.2020
+    * Software Engineer 03.2019 - 02.2020
 * **FREELANCE**
-    *Layout Engineer 01.2018 - 02.2019
-    *Here was basically training - taking the initial courses, I freelance projects that I had in the first 2 years.
+    * Layout Engineer 01.2018 - 02.2019
+    * Here was basically training — taking the initial courses, freelance projects that I had in the first 2 years, while constantly learning and improving my skills.
 
 # Education
 
 * **Bachelor's degree, Belarusian National Technical University, Minsk**
-    * Faculty of Management Technologies and Humanities. Energy efficient technologies and energy management (UNESCO)
+    * Faculty of Management Technologies and Humanities.
+    * Energy efficient technologies and energy management (UNESCO)
 * **Advanced Frontend Development**
-    *[ulbitv.ru](https://ulbitv.ru/frontend)
+    * <a href="https://ulbitv.ru/frontend" target="_blank">ulbitv.ru</a>
 
 # Languages
-* **Russian - native**
 * **English - B2**
-* **Belarusian - B2**
-* **Ukranian - B2**
-* **Polish - A2**
-* **Portuguese - A2**
+    * Over 2 years of experience working in English-speaking teams, currently in my third year living and communicating in an English-speaking environment.
+
 
