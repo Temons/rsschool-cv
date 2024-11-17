@@ -1,0 +1,211 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    line-height: 1.8;
+    background: radial-gradient(circle at top, #0f0c29, #302b63, #24243e);
+    color: #e4e4e4;
+}
+
+h1, h2 {
+    color: #ffcc00;
+}
+
+p, ul, li {
+    font-size: 1rem;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    background: linear-gradient(135deg, #ffcc00, #f76c6c);
+    color: #1e1e2f;
+    padding: 60px 0;
+    text-align: center;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+}
+
+.header-content {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.header-content div {
+    text-align: left;
+}
+
+.profile-photo {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #fff;
+}
+
+main {
+    padding: 40px 0;
+}
+
+.section {
+    margin-bottom: 40px;
+}
+
+h2 {
+    margin-bottom: 15px;
+    font-size: 1.8rem;
+}
+
+ul {
+    list-style: none;
+}
+
+.skills-list li {
+    background: linear-gradient(135deg, #333344, #444455);
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 8px;
+    transition: transform .2s ease, bacground .3s ease;
+}
+
+.skills-list li:hover {
+    transform: scale(1.05);
+    background: linear-gradient(135deg, #555566, #666677);
+}
+
+.date {
+    display: block;
+    margin-bottom: 10px;
+    font-style: italic;
+    color: #c2c2c2;
+}
+
+.responsibilities {
+    list-style: inside;
+}
+
+.languages-content {
+    list-style: inside;
+}
+
+pre {
+    background: #1b1e2b;
+    color: #61dafb;
+    padding: 20px;
+    border-radius: 10px;
+    overflow-x: auto;
+    font-family: 'Fira Code', monospace;
+    font-size: 1rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.contact-list {
+    list-style: none;
+    margin-top: 15px;
+    padding: 0;
+}
+
+.contact-list li {
+    background: linear-gradient(135deg, #282c34, #3b3f50);
+    padding: 12px 20px;
+    margin: 8px 0;
+    border-radius:  8px;
+    color: #e4e4e4;
+    font-size: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: transform 0.3 ease, background 0.3 ease;
+}
+
+.contact-list li strong {
+    color: #ffcc00;
+}
+
+.contact-list li a {
+    color: #e4e4e4;
+    text-decoration: underline;
+    transition: text-decoration 0.3 ease;;
+}
+
+.contact-list li:hover {
+    transform: translateX(10px);
+    background: linear-gradient(135deg, #3f4457, #505567);
+}
+
+@media (max-width: 600px) {
+    .contact-list li {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .contact-list li {
+        margin-top: 5px;
+    }
+}
+
+footer {
+    background: #f4f4f4; 
+    color: #1e1e2f;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 40px;
+  }
+  
+  .footer-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  footer a {
+    color: #1e1e2f; 
+    text-decoration: none;
+  }
+
+  footer p {
+    display: inline-block;
+  }
+  
+  footer img {
+    height: 24px;
+    vertical-align: middle;
+  }
+  
+  h1, h2 {
+    animation: fadeIn 1.2s ease-out;
+  }
+  
+  .skills-list li, .contact-list li {
+    animation: popIn 0.8s ease-out;
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(-10px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  @keyframes popIn {
+    from {
+      opacity: 0;
+      transform: scale(0.8);
+    }
+    to {
+      opacity: 1;
+      transform: scale(1);
+    }
+  }

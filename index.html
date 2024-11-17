@@ -1,8 +1,171 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Document</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trafimiuk Artsiom - CV</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="assets/images/favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Fira+Code&display=swap" rel="stylesheet">
 </head>
 <body>
+    <header>
+        <div class="container header-content">
+            <img src="assets/images/avata.jpg" alt="Artsiom Trafimiuk" class="profile-photo" />
+            <div>
+                <h1>Trafimiuk Artsiom</h1>
+                <p class="subtitle">Software Engineer</p>
+            </div>
+        </div>
+    </header>
+    <main class="container">
+        <section class="section" id="summary">
+            <h2>Summary</h2>
+            <p>As an experienced front-end developer with a solid 5 -year background, I specialize in creating efficient and user-engaging web applications. My proficiency extends across key technologies like JavaScript, React, Redux, and TypeScript. I am committed to excellence in coding, adhering to best practices for maintainability and performance. Continually enhancing my skills through ongoing education, I am equipped to tackle complex challenges in web development.</p>
+        </section>
+
+        <section class="section" id="skills">
+            <h2>Skills</h2>
+            <ul class="skills-list">
+                <li>JavaScript,TypeScript</li>
+                <li>HTML5, CCS3, SCSS, Styled-components, Bootstrap, JQuery</li>
+                <li>React, AngularJS, Angular2+, Next</li>
+                <li>Redux, Redux Toolkit, Redux Thunk</li>
+                <li>Jest, React-testing-library, Storybook</li>
+                <li>Webpack, Vite</li>
+            </ul>
+        </section>
+
+        <section class="section" id="experience">
+            <h2>Experience</h2>
+            <article>
+                <h3>Frontend Developer at Lifetech (Turkcell Group)</h3>
+                <span class="date">
+                    Mar 2021 - Aug 2024 | Minsk, Belarus | Hybrid
+                </span>
+                <ul class="responsibilities">
+                    <li>Ensured stability and performance of legacy systems, addressing bugs and implementing optimizations.</li>
+                    <li>Delivered end-to-end features, from concept to production, adhering to modern development standards.</li>
+                    <li>Spearheaded the migration to a Next.js-based architecture, improving performance and maintainability.</li>
+                    <li>Developed reusable, modular components following best practices for responsive design, ensuring a consistent user experience across devices.</li>
+                    <li>Collaborated with designers to achieve pixel-perfect layouts, prioritizing mobile-first and responsive design principles.</li>
+                    <li>Provided technical guidance and mentorship to two junior developers, fostering their growth in areas such as performance optimization, state management, and best coding practices.</li>
+                </ul>
+            </article>
+            <br/>
+            <article>
+                <h3>Frontend Developer at ABF Programming</h3>
+                <span class="date">
+                    Mar 2020 - Mar 2021 | Minsk, Belarus | Hybrid
+                </span>
+                <ul class="responsibilities">
+                    <li>Designed and implemented a robust tool to help businesses evaluate employee involvement, interest, and motivation through customizable surveys. </li>
+                    <li>Ensured the tool's scalability and ease of use, enhancing HR decision-making processes.</li>
+                    <li>Delivered dynamic and highly performant SPAs, leveraging modern frameworks to ensure fast load times and smooth user experiences.</li>
+                    <li>Focused on building intuitive interfaces with seamless navigation and interactivity.</li>
+                </ul>
+            </article>
+            <br/>
+
+            <article>
+                <h3>Frontend Developer at Tegro</h3>
+                <span class="date">
+                    Mar 2019 - Mar 2020 | Minsk, Belarus | Hybrid
+                </span>
+                <ul class="responsibilities">
+                    <li>Built reusable, scalable UI components with a strong focus on responsiveness and modularity, ensuring efficient code reuse and maintainability across projects.</li>
+                    <li>Delivered high-quality interfaces by meticulously translating design specifications into pixel-perfect UIs.</li>
+                    <li>Adopted a mobile-first approach to guarantee optimal user experiences on all devices, from smartphones to desktops.</li>
+                    <li>Collaborated closely with clients and stakeholders to understand their needs and transform them into fully functional application features and modules.</li>    
+                </ul>
+            </article>
+            <br/>
+
+            <article>
+                <h3>Layout Engineer | Freelance</h3>
+                <span class="date">
+                    Jan 2018 - Feb 2019 | Minsk, Belarus | Hybrid
+                </span>
+                <ul class="responsibilities">
+                    <li>Here was basically training - taking the initial courses, I freelance projects that I had in the first 2 years.</li>
+                    <li>Creating responsive and modular UI components.</li>
+                    <li>Pixel Perfect, mobile first, responsive design.</li>
+                    <li>Create smart-contracts for Ethereum’s blockchain.</li>
+                </ul>
+            </article>
+        </section>
+
+        <section id="education" class="section">
+            <h2>Education</h2>
+            <ul>
+                <li>Belarusian National Technical University</li>
+                <li>Bachelor's degree, Energy Efficient Technologies and Renewable Energy (UNESCO)</li>
+            </ul>
+        </section>
+
+        <section class="section" id="languages">
+            <h2>Language Proficiency</h2>
+            <ul class="languages-content">
+                <li>Russian - native</li>
+                <li>English - B2</li>
+                <li>Belarusian - B2</li>
+                <li>Ukrainian - B2</li>
+                <li>Portuguese - A2</li>
+                <li>Polish - A2</li>
+            </ul>
+        </section>
+
+        <section id="code-example" class="section">
+            <h2>Code example</h2>
+            <pre>
+                <code>
+                    /**
+                    * @param {number} n
+                    * @return {boolean}
+                    */
+                    var isPowerOfTwo = function(n) {
+                        if (n == 1) return true;
+                        return n && n % 2 == 0 ? isPowerOfTwo(n/2) : false;
+                    };
+                </code>
+            </pre>
+        </section>
+
+        <section id="contacts" class="section">
+            <h2>Contacts</h2>
+            <ul class="contact-list">
+                <li>
+                    <strong>Email:</strong>
+                    <a href="mailto:algatecby@gmail.com">algatecby@gmail.com</a>
+                </li>
+                <li>
+                    <strong>LinkedIn:</strong>
+                    <a href="https://www.linkedin.com/in/artsiom-trafimiuk/" target="_blank">Artsiom Trafimiuk</a>
+                </li>
+                <li>
+                    <strong>GitHub:</strong>
+                    <a href="https://github.com/temons" target="_blank">Artsiom Trafimiuk</a>
+                </li>
+                <li>
+                    <strong>Location:</strong> Lisbon, Portugal
+                </li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content container">
+            <a href="https://rs.school/courses/javascript" target="_blank">
+                <img src="assets/images/rs-school-logo.svg" alt="RS School logo" />
+            </a>
+            <div>
+                <a href="https://github.com/temons" target="_blank">
+                    <img src="assets/images/github-mark.svg" alt="GitHub logo" />
+                    
+                </a>
+                <p>&copy; 2024 Artsiom Trafimiuk</p>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
