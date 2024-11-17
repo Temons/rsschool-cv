@@ -16,7 +16,7 @@ h1, h2 {
 }
 
 p, ul, li {
-    font-size: 1 rem;
+    font-size: 1rem;
 }
 
 .container {
@@ -88,6 +88,14 @@ ul {
     color: #c2c2c2;
 }
 
+.responsibilities {
+    list-style: inside;
+}
+
+.languages-content {
+    list-style: inside;
+}
+
 pre {
     background: #1b1e2b;
     color: #61dafb;
@@ -124,12 +132,8 @@ pre {
 
 .contact-list li a {
     color: #e4e4e4;
-    text-decoration: none;
-    transition: text-decoration 0.3 ease;;
-}
-
-.contact-list li a:hover {
     text-decoration: underline;
+    transition: text-decoration 0.3 ease;;
 }
 
 .contact-list li:hover {
@@ -165,6 +169,10 @@ footer {
   footer a {
     color: #1e1e2f; 
     text-decoration: none;
+  }
+
+  footer p {
+    display: inline-block;
   }
   
   footer img {
